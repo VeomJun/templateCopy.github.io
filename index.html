@@ -8,31 +8,71 @@
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=yes, maximum-scale=1, minimum-scale=1"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/3fc1b09e0e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/styles.css" />
     <script src="index.js"></script>
     <title>HTML Practice</title>
   </head>
   <body>
     <header class="header">
-      <div class="header__inside">
-        <h1 class="header__title">PIVOT</h1>
-        <ul class="header__list">
-          <li class="header-list">Home</li>
-          <li class="header-list">Services</li>
-          <li class="header-list">Projects</li>
-          <li class="header-list">News</li>
-          <li class="header-list">About</li>
-          <li class="header-list">Contact</li>
-          <button class="list__btn">quotation</button>
-        </ul>
-      </div>
+      <nav class="header__inside">
+        <div class="container">
+          <a href="#" class="header__title">Pivot</a>
+          div.
+          <ul class="header__list">
+            <li class="header-list">
+              <a href="#">Home</a>
+            </li>
+
+            <li class="header-list">
+              <a href="#">Services</a>
+              <div class="dropdown-list">
+                <a href="#">Pre-Construction</a>
+                <a href="#">General Construction</a>
+                <a href="#">House Renovation</a>
+                <a href="#">Plumbing</a>
+              </div>
+            </li>
+
+            <li class="header-list dropdown">
+              <a href="#">Projects</a>
+            </li>
+
+            <li class="header-list">
+              <a href="#">News</a>
+            </li>
+
+            <li class="header-list">
+              <a href="#">About</a>
+            </li>
+
+            <li class="header-list">
+              <a href="#">Contact</a>
+            </li>
+
+            <li class="header-list far-away">
+              <a href="">Quotation</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
+    <!--
     <main class="main">
       <div class="main__images">
         <figure class="main__figure">
+          <img
+            src="https://1.bp.blogspot.com/-OjQd6XvdZHs/Xc9w3o3kFlI/AAAAAAAAhLU/N97pLgpQnYAh6j1vmV2zze0dpjJPelVeACLcBGAsYHQ/s2560/spiderman-smoking-eyes-4k-d7-2560x1440.jpg"
+            class="figure__img"
+          />
           <figcaption class="figure__description">
-            we are leading the way construction works
-            <button class="figure__btn">get started</button>
+            <span class="figure__line">
+              we are leading the way <br />construction works
+            </span>
+            <button class="figure__btn btn">get started</button>
           </figcaption>
         </figure>
       </div>
@@ -77,7 +117,7 @@
                 alt="worker in construction field"
                 class="figure-img"
               />
-              <span class="figure-plus">+</span>
+              <div class="figure-plus">+</div>
               <figcaption class="figure-title">house renovation</figcaption>
             </figure>
             <figure class="main__project__figure">
@@ -437,14 +477,82 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__bar">
-        <span class="bar__title">
-          contact us for projects or need a quotations
-        </span>
-        <button class="bar__btn">
-          get a quote
-        </button>
+      <div class="footer__box">
+        <div class="footer__bar">
+          <span class="bar__title">
+            contact us for projects or need a quotations
+          </span>
+          <button class="bar__btn">
+            get a quote
+          </button>
+        </div>
+
+        <nav class="footer__menu">
+          <p class="footer__copy">
+            Copyright &copy;2020 All rights reserved | This template is made
+            with❤by <a href="#">Colorlib</a>
+          </p>
+          <div class="footer__list">
+            <div class="footer__column">
+              <span class="footer__title">address:</span>
+              <div class="footer__value">
+                34 Street Name, City Name Here, United States
+              </div>
+            </div>
+            <div class="footer__column">
+              <span class="footer__title">phone:</span>
+              <div class="footer__value">
+                +1 242 4942 290
+              </div>
+            </div>
+            <div class="footer__column">
+              <span class="footer__title">fax:</span>
+              <div class="footer__value">
+                +1 242 4942 290
+              </div>
+            </div>
+            <div class="footer__column">
+              <span class="footer__title">e-mail:</span>
+              <div class="footer__value">
+                info@yourdomain.com
+              </div>
+            </div>
+          </div>
+          <ul class="footer__links">
+            <li class="footer__link">
+              quick links
+            </li>
+            <li class="footer__link">
+              about
+            </li>
+            <li class="footer__link">
+              services
+            </li>
+            <li class="footer__link">
+              works
+            </li>
+            <li class="footer__link">
+              contack
+            </li>
+          </ul>
+          <div class="footer__socials">
+            <div class="footer__socials-title">socials</div>
+            <span class="footer__icon">
+              <i class="fab fa-twitter"></i>
+            </span>
+            <span class="footer__icon">
+              <i class="fab fa-facebook-f"></i>
+            </span>
+            <span class="footer__icon">
+              <i class="fab fa-linkedin-in"></i>
+            </span>
+            <span class="footer__icon">
+              <i class="fab fa-instagram"></i>
+            </span>
+          </div>
+        </nav>
       </div>
     </footer>
+    -->
   </body>
 </html>
